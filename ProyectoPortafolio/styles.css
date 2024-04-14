@@ -1,0 +1,36 @@
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.concert-one-regular {
+    font-family: "Concert One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+.pixelifysans{
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  text-decoration: none;
+  
+}
+
+.colores{
+    color:#003BFA;
+    }
+
+.colores2{
+    color:#060022;
+    }
+
+    .concert-one-regular {
+        font-family: "Concert One", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+      }
+      
