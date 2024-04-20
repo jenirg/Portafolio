@@ -14,11 +14,19 @@
 .pixelifysans{
   font-family: "Pixelify Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 900;
+  font-weight: 400;
   font-style: normal;
   text-decoration: none;
   
 }
+
+.ruda{
+    font-family: "Ruda", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
 
 .colores2{
     color:#060022;
@@ -38,8 +46,21 @@
 .iconoIN:hover { 
     color: hsla(241, 89, 62, 1); 
 }
-  
+
+  .nav li a {
+    color:#4C49F5;
+    transition: background-color 0.3s ease; /* Agregar transición para una animación suave */
+  }
+
+  .nav li a:hover {
+    /*background-color: #3498db;*/ /* Cambiar el color de fondo al pasar el mouse */
+    color: #4E72DE; /* Cambiar el color del texto al pasar el mouse */
+  }
+
+  .icono:hover path {
+    fill: #4E72DE; /* Cambia el color de relleno de todas las rutas (paths) al pasar el mouse */
+  }
   
 
-      
+
       
