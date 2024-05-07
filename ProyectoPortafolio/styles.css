@@ -47,6 +47,7 @@
     color: hsla(241, 89, 62, 1); 
 }
 
+
   .nav li a {
     color:#4C49F5;
     transition: background-color 0.3s ease; /* Agregar transición para una animación suave */
@@ -60,6 +61,12 @@
   .icono:hover path {
     fill: #4E72DE; /* Cambia el color de relleno de todas las rutas (paths) al pasar el mouse */
   }
+
+  .rounded-pill{
+    color:#4C49F5;            
+  }
+                      
+  
   
 
 
