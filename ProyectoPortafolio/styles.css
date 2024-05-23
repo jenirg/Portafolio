@@ -1,4 +1,10 @@
 
+.poetsen-one-regular {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 .concert-one-regular {
     font-family: "Concert One", sans-serif;
@@ -72,7 +78,7 @@
     color: hsla(241, 89, 62, 1); 
 }
   .icono:hover path {
-    fill: #4E72DE; /* Cambia el color de relleno de todas las rutas (paths) al pasar el mouse */
+    fill: #6600FF; /* Cambia el color de relleno de todas las rutas (paths) al pasar el mouse */
   }
 
   .rounded-pill{
@@ -110,6 +116,6 @@
 }
   
 
-
-
-      
+.mi-div{
+  background: #B9B4AC;
+}
