@@ -20,7 +20,6 @@ async function makeRequest() {
 
                 <div class="d-grid gap-2 d-md-flex justify-content-md-end">
                 <button class="btn btn-primary me-md-2" onclick="eliminarBlogs()"  type="button" data-id=${item._id}>Eliminar</button>
-                <button class="btn btn-primary" onclick="editarBlogs()" type="button" data-id=${item._id}>Editar</button>
                 </div>
 
                 `;
