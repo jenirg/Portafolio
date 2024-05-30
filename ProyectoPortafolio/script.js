@@ -12,16 +12,10 @@ async function makeRequest() {
                 const nuevoDiv = document.createElement('div');
                 nuevoDiv.className = 'mi-div'; // Agrega tus clases CSS aquí
                 nuevoDiv.innerHTML = `
-                <p>${item._id}</p>
                 <p>${item.titulo}</p>
                 <p>${item.contenido}</p>
                 <p>${item.fecha}</p>
                 <p>${item.autor}</p>
-
-                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                <button class="btn btn-primary me-md-2" onclick="eliminarBlogs()"  type="button" data-id=${item._id}>Eliminar</button>
-                </div>
-
                 `;
                 contenedorTexto.appendChild(nuevoDiv);
             }
